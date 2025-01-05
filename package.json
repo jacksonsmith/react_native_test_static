@@ -5,7 +5,7 @@
   "scripts": {
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "transpile:sum": "tsc src/utils/sum.ts --skipLibCheck --noEmit false",
-    "format": "prettier --write .",
+    "format:hello-word": "prettier --write src/utils/unformattedFile.ts",
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
     "depcheck": "depcheck"
   },
